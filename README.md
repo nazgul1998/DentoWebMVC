@@ -97,14 +97,17 @@ El paciente puede realizar las siguientes acciones:
 
 
 > Iniciar sesion
+
 ![Image text](./imgs_md/paciente-login.png)
 
 
 > Home 
+
 ![Image text](./imgs_md/paciente-home.png)
 
 
 > Crear cita
+
 ![Image text](./imgs_md/paciente-crearcita.png)
 
 
@@ -134,11 +137,15 @@ El paciente puede realizar las siguientes acciones:
 
 
 ## NOTA
+
 Ambos, tanto paciente como doctor pueden cancelar y crear citas ademas de inicias sesion, pero el doctor no puede registrarse, este tiene que ser creado directamente en DB, por otro lado el paciente no puede atender una cita, ya que es trabajo del doctor. 
+
 
 Para comenzar a usar el sistema debe modificar el archivo `appsettings.json` en especifico remplazar la DevConnection con su cadena de coneccion propia, el script de base de datos se encuentra en `ScriptDB/DentoWeb.sql`.
 
+
 Adicionalmente puede modificar el token con el que se encriptan las conteraseñas en el archivo `appsettings.json` en especifico remplazar el Token.
+
 
 La tabla de la horarios sirve para establecer el horario de atencion del doctor. 
 
